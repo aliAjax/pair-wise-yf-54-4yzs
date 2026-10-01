@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 62019",
     "build": "vue-tsc -b && vite build",
+    "verify": "node scripts/verify-ledger.mjs",
     "preview": "vite preview --host 0.0.0.0 --port 62019"
   },
   "dependencies": {
